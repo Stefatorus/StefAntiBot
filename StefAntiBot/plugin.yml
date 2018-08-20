@@ -1,0 +1,8 @@
+name: StefAntiBot
+author: Stefatorus
+version: 0.1
+description: Hybrid passive Antibot.
+main: cx.sfy.stefantibot.BukkitMain
+commands:
+  stefantibot:
+  
