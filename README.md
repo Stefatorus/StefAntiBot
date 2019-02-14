@@ -1,6 +1,6 @@
 # StefAntiBot - Mitigate Minecraft Layer 7 Attacks
-Advanced way to mitigate bot attacks for large minecraft networks.
-Was optimized for performance and scalability.
+Advanced way to mitigate bot attacks for large minecraft networks. This is a proof of concept for how this concept can be used to improve performance to improve performance.
+It was optimized for performance and scalability.
 
 
 ## How To Install
