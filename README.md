@@ -8,6 +8,7 @@ After cloning the source and configuring to your own needs, make the firewall au
 
 ## How to create a ip whitelist?
 I suggest using maravento's blackip program to automatically download a list of geo ipranges that you can further use to create a whitelist of your targeted areas. I also suggest optimizing the ip-ranges to add that extra speed to the firewall; considering it may have to work with tens of thousands of ip ranges per connection.
+https://github.com/maravento/blackip
 
 ## Why better than past approaches?
 Filtering the bots via an firewall that is additionaly controlled by the server allows for the same versatilty while keeping the load off your server. Not only that, but the way the system is implemented is currently superior to past iptables approaches which simply add a rule for each ip added and will clog up your iptables config.
