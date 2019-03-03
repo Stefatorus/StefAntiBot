@@ -1,4 +1,4 @@
-package cx.sfy.stefantibot;
+package cx.sfy.stefantibot.blacklist;
 
 import java.net.InetAddress;
 import java.net.InetSocketAddress;

@@ -1,0 +1,5 @@
+name: StefAntiBot
+author: Stefatorus
+version: ${project.version}
+description: Hybrid passive Antibot.
+main: cx.sfy.stefantibot.BungeeMain

@@ -6,6 +6,8 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerPreLoginEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import cx.sfy.stefantibot.blacklist.BlacklistMGR;
+
 public class BukkitMain extends JavaPlugin implements Listener {
 
 	@Override
@@ -18,7 +20,6 @@ public class BukkitMain extends JavaPlugin implements Listener {
 		String ip = e.getAddress().getHostName();
 		Bukkit.getScheduler().runTaskAsynchronously(this, () -> {
 			if (BlacklistMGR.isProxy(ip)) {
-				System.out.println(ip);
 				BlacklistMGR.blacklistIP(ip);
 			}
 		});

@@ -1,4 +1,4 @@
-package cx.sfy.stefantibot;
+package cx.sfy.stefantibot.blacklist;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
@@ -16,7 +16,7 @@ public class BlacklistMGR {
 
 	private static final Runtime rt = Runtime.getRuntime();
 
-	protected static void blacklistIP(String ip) {
+	public static void blacklistIP(String ip) {
 		String cmd = blackcmd.replace("%ip%", ip);
 		try {
 			rt.exec(cmd);
