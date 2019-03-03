@@ -19,6 +19,7 @@ The system was developed to be used on the Gamster.org minecraft community, with
 - Scalability
 - Mitigation Speed
 - Real User Impact
+
 The scalability is great, because the system only requires each of your entry servers to use the firewall. Iptables & ipsets are really efficient and will work fine in large attacks.
 The mitigation is almost instant. Once the connections/second are passed, people that aren't whitelisted instantly get blocked from joining. The attack can't surpass the configured ammount of connections.
 Real Users that are already on the server will not get affected. Whitelisted players will still be able to join when the server is under attack. Additional measures can be implemented on top of the default system to allow safe players to still play.
